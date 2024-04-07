@@ -141,7 +141,9 @@ p.footer-note a:hover{
 a.highlighted{
   font-style: italic;
   font-weight: 400;
-  color: #303030;
+  color: #274effcc;
+
+/*  color: #303030;*/
 }
 
 a{
@@ -164,8 +166,8 @@ p.title a {
 }
 
 p.sub-title{
-  font-size: 0.9em;
-  color: rgba(0,0,0,0.5);
+  font-size: 1.1em;
+  color: rgba(0,0,0,0.85);
   margin-top: 0;
 /*  padding-bottom: 2em;
   border-bottom: 1px solid rgba(255,107,88,0.2);*/
@@ -174,7 +176,7 @@ p.sub-title{
 h2{
   font-weight: 300;
   color: black;
-  font-size: 10px;
+  font-size: 18px;
 }
 
 
@@ -256,7 +258,7 @@ ul li a {
   position: relative;
   top: 0;
   padding-right: 2%;
-  max-width: 300px;
+  max-width: 350px;
   vertical-align: bottom;
 }
 
@@ -325,11 +327,11 @@ ul li a {
     }
 
     .column-6-8 {
-        width: 67%;
+        width: 85%;
     }
 
     .column-25-8 {
-        width: 26.25%;
+        width: 40.25%;
     }
 
     .container {
