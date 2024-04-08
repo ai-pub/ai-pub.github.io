@@ -34,7 +34,6 @@ body {
   width: 95%;
   margin: 0 auto;
 
-
 }
 
 ul.header-nav{
@@ -72,7 +71,7 @@ li#current_article{
 }
 
 .backToBlog{
-  border-left: 1px solid #FFFFFF; 
+/*  border-left: 1px solid #FFFFFF; */
   padding-left: 1em;
   margin-left: 1em;
   vertical-align: middle;
@@ -159,8 +158,9 @@ h1.title{
 
 h2.title{
   color: #9B9B9B;
-  margin: 0%;
-  font-size: 24px;
+  margin: -5%;
+  margin-bottom: 1.8em;
+  font-size: 19px;
 }
 
 p.title{
@@ -333,6 +333,7 @@ img{
 
 
 .marginbody {
+  font-size: 1em;
   opacity: 0;
   border-left: 2px solid rgba(255,196,0,0);
   padding-left: 1em;
@@ -603,9 +604,12 @@ p.inline-caption{
 }
 
 h4.reference{
-  font-weight: 600;
-   margin-top:1em;
-  margin-bottom:0.5em;
+  font-family:  'Roboto';
+  font-weight: 300;
+  font-size: 18px;
+  margin-top:1.5em;
+  margin-bottom:0.2em;
+  color: #808080; 
 }
 
 
@@ -618,8 +622,8 @@ ol.reference{
 
   padding-top:0;
   padding-bottom: 0;
-  margin-top:0.5em;
-  margin-bottom:0.5em;
+  margin-top:0.2em;
+  margin-bottom:0.2em; 
  
 
 }
