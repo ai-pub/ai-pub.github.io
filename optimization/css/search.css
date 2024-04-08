@@ -1,0 +1,15 @@
+#border {
+	fill: transparent;
+	stroke: black;
+	stroke-width: 5;
+}
+
+
+body {
+    font-family:  'Roboto', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.5; 
+    color: #354046; /*#455a64;*/
+    font-size: 14pt;
+    word-wrap: break-word;
+}
